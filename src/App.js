@@ -10,7 +10,7 @@ import io from "socket.io-client"
 import "./App.css"
 
 
-const socket = io.connect('https://be-socket.vercel.app/')
+const socket = io.connect('https://be-socket.vercel.app')
 // const socket = io.connect('https://bk.huyhoangtoeic.com/')
 function App() {
 	const [ me, setMe ] = useState("")
